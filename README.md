@@ -38,3 +38,7 @@ You will need to use a security login to change the parameters, go to 'extras' >
 The default PVDC-start was 180v, I set this to 150v which is the minimum. As soon as AC was reconnected it started working. Awesome, a nearly free solar setup.
 
 I hope this saves someone the hours of searching I went through to find a dirt cheap resolution to changing the settings on their inverter.
+
+Here is how to do it properly if you want something you can leave connected: https://mensi.ch/blog/articles/creating-an-usb-interface-for-sunnyboy-inverters
+
+Further steps will be to install an ESP32 and send all the live data to a webpage so I can monitor my solar in realtime. 
